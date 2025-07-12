@@ -195,9 +195,9 @@ body {
 }
 
 .testimonial-cards {
+      max-width: 80vw;
+      margin: 0 auto;
       display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
       justify-content: center;
 }
 
@@ -205,7 +205,9 @@ body {
       background-color: #ffffff;
       border-radius: 16px;
       padding: 20px;
-      width: 360px;
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
       text-align: left;
 }
@@ -259,6 +261,7 @@ body {
       padding: 80px 20px;
       display: flex;
       justify-content: center;
+      width: 100%;
 }
 
 .cta-content {
@@ -316,7 +319,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 40px;
-      max-width: 1000px;
+      max-width: 70vw;
       margin: 0 auto;
       align-items: center;
       justify-content: space-between;
@@ -328,7 +331,7 @@ body {
 }
 
 .contact-text h2 {
-      font-size: 2.8rem;
+      font-size: 80px;
       font-weight: 700;
       color: #1c1c1c;
 }
